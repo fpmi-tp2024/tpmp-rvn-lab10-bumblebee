@@ -18,7 +18,7 @@ To get started with this project, clone the repository to your local machine usi
 
 ## Documentation
 
-For detailed information on the project structure and guidelines, please refer to the [Wiki](https://github.com/fpmi-tp2024) section of this repository.
+For detailed information on the project structure and guidelines, please refer to the [Wiki](https://github.com/fpmi-tp2024/tpmp-rvn-lab10-bumblebee/wiki) section of this repository.
 
 ## Contributing
 
