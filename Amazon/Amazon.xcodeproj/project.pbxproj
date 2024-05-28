@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF217C172C06878E0099ED87 /* Product.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF217C152C06878E0099ED87 /* Product.xcdatamodeld */; };
+		AF217C1F2C068E130099ED87 /* ProductItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C1D2C068E130099ED87 /* ProductItem+CoreDataClass.swift */; };
+		AF217C202C068E130099ED87 /* ProductItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C1E2C068E130099ED87 /* ProductItem+CoreDataProperties.swift */; };
+		AF217C232C068E2E0099ED87 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C212C068E2E0099ED87 /* User+CoreDataClass.swift */; };
+		AF217C242C068E2E0099ED87 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C222C068E2E0099ED87 /* User+CoreDataProperties.swift */; };
 		AF29871F2C061EAB00713553 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29871E2C061EAB00713553 /* ProfileViewController.swift */; };
 		AF2987212C0620B400713553 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2987202C0620B400713553 /* AddProductViewController.swift */; };
 		AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DF82C04B023004D6267 /* LoginViewController.swift */; };
@@ -20,13 +25,16 @@
 		AFB4B5262C0539060041151F /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5252C0539060041151F /* PolicyViewController.swift */; };
 		AFB4B5292C053B7B0041151F /* UsersInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5272C053B7B0041151F /* UsersInfo.xcdatamodeld */; };
 		AFB4B5302C053C3F0041151F /* AddingUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B52F2C053C3F0041151F /* AddingUserInfo.swift */; };
-		AFB4B5432C05C2920041151F /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5412C05C2920041151F /* User+CoreDataClass.swift */; };
-		AFB4B5442C05C2920041151F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5422C05C2920041151F /* User+CoreDataProperties.swift */; };
 		AFB4B54A2C060A060041151F /* CustomerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5492C060A060041151F /* CustomerController.swift */; };
 		AFB4B54C2C060ABA0041151F /* VendorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B54B2C060ABA0041151F /* VendorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF217C162C06878E0099ED87 /* Product.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Product.xcdatamodel; sourceTree = "<group>"; };
+		AF217C1D2C068E130099ED87 /* ProductItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AF217C1E2C068E130099ED87 /* ProductItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF217C212C068E2E0099ED87 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AF217C222C068E2E0099ED87 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AF29871E2C061EAB00713553 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AF2987202C0620B400713553 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 		AF988DF82C04B023004D6267 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -42,8 +50,6 @@
 		AFB4B5252C0539060041151F /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
 		AFB4B5282C053B7B0041151F /* UsersInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsersInfo.xcdatamodel; sourceTree = "<group>"; };
 		AFB4B52F2C053C3F0041151F /* AddingUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingUserInfo.swift; sourceTree = "<group>"; };
-		AFB4B5412C05C2920041151F /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AFB4B5422C05C2920041151F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AFB4B5492C060A060041151F /* CustomerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerController.swift; sourceTree = "<group>"; };
 		AFB4B54B2C060ABA0041151F /* VendorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,9 +65,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF217C1C2C068D570099ED87 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				AF217C152C06878E0099ED87 /* Product.xcdatamodeld */,
+				AF217C1E2C068E130099ED87 /* ProductItem+CoreDataProperties.swift */,
+				AF217C1D2C068E130099ED87 /* ProductItem+CoreDataClass.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		AFAEA6E22BFFCE2700AED44C = {
 			isa = PBXGroup;
 			children = (
+				AF217C1C2C068D570099ED87 /* Product */,
 				AFB4B52E2C053C000041151F /* User */,
 				AFAEA6ED2BFFCE2700AED44C /* Amazon */,
 				AFAEA6EC2BFFCE2700AED44C /* Products */,
@@ -101,9 +118,9 @@
 		AFB4B52E2C053C000041151F /* User */ = {
 			isa = PBXGroup;
 			children = (
+				AF217C212C068E2E0099ED87 /* User+CoreDataClass.swift */,
+				AF217C222C068E2E0099ED87 /* User+CoreDataProperties.swift */,
 				AFB4B5272C053B7B0041151F /* UsersInfo.xcdatamodeld */,
-				AFB4B5412C05C2920041151F /* User+CoreDataClass.swift */,
-				AFB4B5422C05C2920041151F /* User+CoreDataProperties.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -180,12 +197,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB4B5292C053B7B0041151F /* UsersInfo.xcdatamodeld in Sources */,
-				AFB4B5432C05C2920041151F /* User+CoreDataClass.swift in Sources */,
-				AFB4B5442C05C2920041151F /* User+CoreDataProperties.swift in Sources */,
+				AF217C172C06878E0099ED87 /* Product.xcdatamodeld in Sources */,
 				AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */,
 				AFAEA6F32BFFCE2700AED44C /* ViewController.swift in Sources */,
 				AFB4B5262C0539060041151F /* PolicyViewController.swift in Sources */,
 				AFAEA6EF2BFFCE2700AED44C /* AppDelegate.swift in Sources */,
+				AF217C1F2C068E130099ED87 /* ProductItem+CoreDataClass.swift in Sources */,
+				AF217C202C068E130099ED87 /* ProductItem+CoreDataProperties.swift in Sources */,
+				AF217C232C068E2E0099ED87 /* User+CoreDataClass.swift in Sources */,
+				AF217C242C068E2E0099ED87 /* User+CoreDataProperties.swift in Sources */,
 				AFB4B54C2C060ABA0041151F /* VendorController.swift in Sources */,
 				AF2987212C0620B400713553 /* AddProductViewController.swift in Sources */,
 				AFB4B54A2C060A060041151F /* CustomerController.swift in Sources */,
@@ -415,6 +435,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		AF217C152C06878E0099ED87 /* Product.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF217C162C06878E0099ED87 /* Product.xcdatamodel */,
+			);
+			currentVersion = AF217C162C06878E0099ED87 /* Product.xcdatamodel */;
+			path = Product.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		AFB4B5272C053B7B0041151F /* UsersInfo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

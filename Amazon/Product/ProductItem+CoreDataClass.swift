@@ -1,5 +1,5 @@
 //
-//  User+CoreDataClass.swift
+//  ProductItem+CoreDataClass.swift
 //  Amazon
 //
 //  Created by Victoria Samsonova on 29.05.24.
@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(User)
-public class User: NSManagedObject {
+@objc(ProductItem)
+public class ProductItem: NSManagedObject {
 
 }
