@@ -12,17 +12,26 @@ import CoreLocation
 
 var appDelegate = UIApplication.shared.delegate as! AppDelegate
 
-func addUserData(status: Int?, userName: String?, email: String?, password: String?, birthday: Date?) {
-    let newObject = NSEntityDescription.insertNewObject(forEntityName: "User", into: appDelegate.persistentContainer.viewContext) as NSManagedObject;
-    newObject.setValue(userName, forKey: "username")
-    newObject.setValue(email, forKey: "email")
-    newObject.setValue(password, forKey: "password")
-    newObject.setValue(birthday, forKey: "birthday")
+
+func addUserData(status: Int?, userName: String?, email: String?, password: String?, birthday: Date?) -> Int16 {
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    let newUser = User(context: context)
+    var id = newUser.id
+    newUser.username = userName
+    newUser.email = email
+    newUser.password = password
+    newUser.birthday = birthday
+    newUser.status = Int16(status ?? 0)
     if status == 0 {
-        newObject.setValue("Customer", forKey: "status")
+        id = Int16.random(in: 1...1000)
     }
     else {
-        newObject.setValue("Vendor", forKey: "status")
+        id = Int16.random(in: 1001...2000)
     }
-    
+    do {
+        try context.save()
+    } catch {
+        print("Error saving context: \(error)")
+    }
+    return id
 }

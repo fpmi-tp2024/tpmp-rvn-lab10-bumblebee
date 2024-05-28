@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF29871F2C061EAB00713553 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29871E2C061EAB00713553 /* ProfileViewController.swift */; };
+		AF2987212C0620B400713553 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2987202C0620B400713553 /* AddProductViewController.swift */; };
 		AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DF82C04B023004D6267 /* LoginViewController.swift */; };
 		AF988DFB2C04B965004D6267 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DFA2C04B965004D6267 /* SignUpViewController.swift */; };
 		AFAEA6EF2BFFCE2700AED44C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA6EE2BFFCE2700AED44C /* AppDelegate.swift */; };
@@ -18,11 +20,15 @@
 		AFB4B5262C0539060041151F /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5252C0539060041151F /* PolicyViewController.swift */; };
 		AFB4B5292C053B7B0041151F /* UsersInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5272C053B7B0041151F /* UsersInfo.xcdatamodeld */; };
 		AFB4B5302C053C3F0041151F /* AddingUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B52F2C053C3F0041151F /* AddingUserInfo.swift */; };
-		AFB4B53B2C0553580041151F /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5392C0553580041151F /* User+CoreDataClass.swift */; };
-		AFB4B53C2C0553580041151F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B53A2C0553580041151F /* User+CoreDataProperties.swift */; };
+		AFB4B5432C05C2920041151F /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5412C05C2920041151F /* User+CoreDataClass.swift */; };
+		AFB4B5442C05C2920041151F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5422C05C2920041151F /* User+CoreDataProperties.swift */; };
+		AFB4B54A2C060A060041151F /* CustomerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B5492C060A060041151F /* CustomerController.swift */; };
+		AFB4B54C2C060ABA0041151F /* VendorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B54B2C060ABA0041151F /* VendorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF29871E2C061EAB00713553 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF2987202C0620B400713553 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 		AF988DF82C04B023004D6267 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF988DFA2C04B965004D6267 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AFAEA6EB2BFFCE2700AED44C /* Amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,8 +42,10 @@
 		AFB4B5252C0539060041151F /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
 		AFB4B5282C053B7B0041151F /* UsersInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsersInfo.xcdatamodel; sourceTree = "<group>"; };
 		AFB4B52F2C053C3F0041151F /* AddingUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingUserInfo.swift; sourceTree = "<group>"; };
-		AFB4B5392C0553580041151F /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AFB4B53A2C0553580041151F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFB4B5412C05C2920041151F /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AFB4B5422C05C2920041151F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AFB4B5492C060A060041151F /* CustomerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerController.swift; sourceTree = "<group>"; };
+		AFB4B54B2C060ABA0041151F /* VendorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 				AFAEA6F02BFFCE2700AED44C /* SceneDelegate.swift */,
 				AFAEA6F22BFFCE2700AED44C /* ViewController.swift */,
 				AFAEA6F42BFFCE2700AED44C /* Main.storyboard */,
+				AF2987202C0620B400713553 /* AddProductViewController.swift */,
+				AF29871E2C061EAB00713553 /* ProfileViewController.swift */,
+				AFB4B54B2C060ABA0041151F /* VendorController.swift */,
+				AFB4B5492C060A060041151F /* CustomerController.swift */,
 				AFB4B5252C0539060041151F /* PolicyViewController.swift */,
 				AF988DFA2C04B965004D6267 /* SignUpViewController.swift */,
 				AF988DF82C04B023004D6267 /* LoginViewController.swift */,
@@ -89,9 +101,9 @@
 		AFB4B52E2C053C000041151F /* User */ = {
 			isa = PBXGroup;
 			children = (
-				AFB4B5392C0553580041151F /* User+CoreDataClass.swift */,
-				AFB4B53A2C0553580041151F /* User+CoreDataProperties.swift */,
 				AFB4B5272C053B7B0041151F /* UsersInfo.xcdatamodeld */,
+				AFB4B5412C05C2920041151F /* User+CoreDataClass.swift */,
+				AFB4B5422C05C2920041151F /* User+CoreDataProperties.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -168,13 +180,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB4B5292C053B7B0041151F /* UsersInfo.xcdatamodeld in Sources */,
-				AFB4B53B2C0553580041151F /* User+CoreDataClass.swift in Sources */,
-				AFB4B53C2C0553580041151F /* User+CoreDataProperties.swift in Sources */,
+				AFB4B5432C05C2920041151F /* User+CoreDataClass.swift in Sources */,
+				AFB4B5442C05C2920041151F /* User+CoreDataProperties.swift in Sources */,
 				AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */,
 				AFAEA6F32BFFCE2700AED44C /* ViewController.swift in Sources */,
 				AFB4B5262C0539060041151F /* PolicyViewController.swift in Sources */,
 				AFAEA6EF2BFFCE2700AED44C /* AppDelegate.swift in Sources */,
+				AFB4B54C2C060ABA0041151F /* VendorController.swift in Sources */,
+				AF2987212C0620B400713553 /* AddProductViewController.swift in Sources */,
+				AFB4B54A2C060A060041151F /* CustomerController.swift in Sources */,
 				AFAEA6F12BFFCE2700AED44C /* SceneDelegate.swift in Sources */,
+				AF29871F2C061EAB00713553 /* ProfileViewController.swift in Sources */,
 				AF988DFB2C04B965004D6267 /* SignUpViewController.swift in Sources */,
 				AFB4B5302C053C3F0041151F /* AddingUserInfo.swift in Sources */,
 			);

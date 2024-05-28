@@ -22,6 +22,7 @@ extension User {
     @NSManaged public var birthday: Date?
     @NSManaged public var status: Int16
     @NSManaged public var id: Int16
+
 }
 
 extension User : Identifiable {
