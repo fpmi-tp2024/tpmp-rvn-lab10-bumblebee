@@ -16,11 +16,12 @@ extension ProductItem {
         return NSFetchRequest<ProductItem>(entityName: "ProductItem")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var id: UUID?
     @NSManaged public var image: String?
-    @NSManaged public var prodDescription: String?
+    @NSManaged public var name: String?
     @NSManaged public var price: String?
+    @NSManaged public var prodDescription: String?
+    @NSManaged public var amount: Int16
 
 }
 
