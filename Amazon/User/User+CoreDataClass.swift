@@ -2,7 +2,7 @@
 //  User+CoreDataClass.swift
 //  Amazon
 //
-//  Created by Victoria Samsonova on 29.05.24.
+//  Created by Victoria Samsonova on 30.05.24.
 //
 //
 
