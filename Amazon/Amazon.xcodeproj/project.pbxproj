@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF217C172C06878E0099ED87 /* Product.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF217C152C06878E0099ED87 /* Product.xcdatamodeld */; };
-		AF217C272C070A730099ED87 /* ProductItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C252C070A730099ED87 /* ProductItem+CoreDataClass.swift */; };
-		AF217C282C070A730099ED87 /* ProductItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C262C070A730099ED87 /* ProductItem+CoreDataProperties.swift */; };
+		AF0B41512C0920EB005C8EDF /* ProductGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B41502C0920EB005C8EDF /* ProductGalleryCollectionViewCell.swift */; };
+		AF0B41532C09229B005C8EDF /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B41522C09229B005C8EDF /* GalleryViewController.swift */; };
+		AF0B41552C09259E005C8EDF /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF0B41542C09259E005C8EDF /* Products.plist */; };
+		AF0B41572C092DBA005C8EDF /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0B41562C092DBA005C8EDF /* ProductViewController.swift */; };
 		AF217C2B2C07E13D0099ED87 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C292C07E13D0099ED87 /* User+CoreDataClass.swift */; };
 		AF217C2C2C07E13D0099ED87 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C2A2C07E13D0099ED87 /* User+CoreDataProperties.swift */; };
 		AF29871F2C061EAB00713553 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29871E2C061EAB00713553 /* ProfileViewController.swift */; };
@@ -31,9 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF217C162C06878E0099ED87 /* Product.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Product.xcdatamodel; sourceTree = "<group>"; };
-		AF217C252C070A730099ED87 /* ProductItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItem+CoreDataClass.swift"; sourceTree = "<group>"; };
-		AF217C262C070A730099ED87 /* ProductItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF0B41502C0920EB005C8EDF /* ProductGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF0B41522C09229B005C8EDF /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		AF0B41542C09259E005C8EDF /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		AF0B41562C092DBA005C8EDF /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		AF217C292C07E13D0099ED87 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AF217C2A2C07E13D0099ED87 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AF29871E2C061EAB00713553 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -67,20 +69,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF217C1C2C068D570099ED87 /* Product */ = {
-			isa = PBXGroup;
-			children = (
-				AF217C252C070A730099ED87 /* ProductItem+CoreDataClass.swift */,
-				AF217C262C070A730099ED87 /* ProductItem+CoreDataProperties.swift */,
-				AF217C152C06878E0099ED87 /* Product.xcdatamodeld */,
-			);
-			path = Product;
-			sourceTree = "<group>";
-		};
 		AFAEA6E22BFFCE2700AED44C = {
 			isa = PBXGroup;
 			children = (
-				AF217C1C2C068D570099ED87 /* Product */,
 				AFB4B52E2C053C000041151F /* User */,
 				AFAEA6ED2BFFCE2700AED44C /* Amazon */,
 				AFAEA6EC2BFFCE2700AED44C /* Products */,
@@ -104,7 +95,11 @@
 				AFAEA6F02BFFCE2700AED44C /* SceneDelegate.swift */,
 				AFAEA6F22BFFCE2700AED44C /* ViewController.swift */,
 				AFAEA6F42BFFCE2700AED44C /* Main.storyboard */,
+				AF0B41522C09229B005C8EDF /* GalleryViewController.swift */,
+				AF0B41562C092DBA005C8EDF /* ProductViewController.swift */,
+				AF0B41542C09259E005C8EDF /* Products.plist */,
 				AF2987202C0620B400713553 /* AddProductViewController.swift */,
+				AF0B41502C0920EB005C8EDF /* ProductGalleryCollectionViewCell.swift */,
 				AF29871E2C061EAB00713553 /* ProfileViewController.swift */,
 				AFB4B54B2C060ABA0041151F /* VendorController.swift */,
 				AFB4B5492C060A060041151F /* CustomerController.swift */,
@@ -186,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0B41552C09259E005C8EDF /* Products.plist in Resources */,
 				AFAEA6F82BFFCE2900AED44C /* Assets.xcassets in Resources */,
 				AFAEA6FB2BFFCE2900AED44C /* Base in Resources */,
 				AFAEA6F62BFFCE2700AED44C /* Base in Resources */,
@@ -200,14 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB4B5292C053B7B0041151F /* UsersInfo.xcdatamodeld in Sources */,
-				AF217C172C06878E0099ED87 /* Product.xcdatamodeld in Sources */,
 				AF5DD8E72C088F6D00121D49 /* ChooseImage.swift in Sources */,
 				AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */,
 				AFAEA6F32BFFCE2700AED44C /* ViewController.swift in Sources */,
 				AFB4B5262C0539060041151F /* PolicyViewController.swift in Sources */,
 				AFAEA6EF2BFFCE2700AED44C /* AppDelegate.swift in Sources */,
-				AF217C272C070A730099ED87 /* ProductItem+CoreDataClass.swift in Sources */,
-				AF217C282C070A730099ED87 /* ProductItem+CoreDataProperties.swift in Sources */,
+				AF0B41572C092DBA005C8EDF /* ProductViewController.swift in Sources */,
 				AF217C2B2C07E13D0099ED87 /* User+CoreDataClass.swift in Sources */,
 				AF217C2C2C07E13D0099ED87 /* User+CoreDataProperties.swift in Sources */,
 				AFB4B54C2C060ABA0041151F /* VendorController.swift in Sources */,
@@ -216,6 +210,8 @@
 				AFAEA6F12BFFCE2700AED44C /* SceneDelegate.swift in Sources */,
 				AF29871F2C061EAB00713553 /* ProfileViewController.swift in Sources */,
 				AF988DFB2C04B965004D6267 /* SignUpViewController.swift in Sources */,
+				AF0B41532C09229B005C8EDF /* GalleryViewController.swift in Sources */,
+				AF0B41512C0920EB005C8EDF /* ProductGalleryCollectionViewCell.swift in Sources */,
 				AFB4B5302C053C3F0041151F /* AddingUserInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,16 +435,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AF217C152C06878E0099ED87 /* Product.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AF217C162C06878E0099ED87 /* Product.xcdatamodel */,
-			);
-			currentVersion = AF217C162C06878E0099ED87 /* Product.xcdatamodel */;
-			path = Product.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		AFB4B5272C053B7B0041151F /* UsersInfo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

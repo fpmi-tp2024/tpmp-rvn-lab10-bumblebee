@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Multicoocker</key>
+	<dict>
+		<key>image</key>
+		<string>multicoocker</string>
+		<key>price</key>
+		<string>84$</string>
+		<key>name</key>
+		<string>Multicoocker Instant Pot</string>
+	</dict>
+	<key>Battereis</key>
+	<dict>
+		<key>price</key>
+		<string>18$</string>
+		<key>name</key>
+		<string>Energizer AA-32</string>
+		<key>image</key>
+		<string>batteries</string>
+	</dict>
+</dict>
+</plist>
