@@ -20,45 +20,8 @@ class AddProductViewController: UIViewController, UIImagePickerControllerDelegat
     @IBOutlet weak var addAmountTF: UITextField!
     
     @IBAction func addImageTap(_ sender: Any) {
-        let ac = UIAlertController(title: "Add image", message: "", preferredStyle: .actionSheet)
-        let cameraButton = UIAlertAction(title: "Camera", style: .default) {[weak self] (_) in
-            self?.showImage(selectedSource: .camera)
-        }
-        let libraryButton = UIAlertAction(title: "Library", style: .default) {[weak self] (_) in
-            self?.showImage(selectedSource: .photoLibrary)
-        }
-        let cancelButton = UIAlertAction(title: "Cancel", style: .default, handler: nil)
-        ac.addAction(cameraButton)
-        ac.addAction(libraryButton)
-        ac.addAction(cancelButton)
-        self.present(ac, animated: true, completion: nil)
+        chooseImage(from: self, image: productImageView)
     }
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let selectedImage = info[.originalImage] as? UIImage {
-            productImageView.image = selectedImage
-        }
-        else {
-            print("image not found")
-        }
-        picker.dismiss(animated: true, completion: nil)
-    }
-    
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        picker.dismiss(animated: true, completion: nil)
-    }
-    
-    func showImage(selectedSource: UIImagePickerController.SourceType) {
-        guard UIImagePickerController.isSourceTypeAvailable(selectedSource) else {
-            return
-        }
-        let imagePickerController = UIImagePickerController()
-        imagePickerController.delegate = self
-        imagePickerController.sourceType = selectedSource
-        imagePickerController.allowsEditing = false
-        self.present(imagePickerController, animated: true, completion: nil)
-    }
-    
     
     @IBAction func addProductToGalleryTap(_ sender: Any) {
         let amount = addAmountTF.text

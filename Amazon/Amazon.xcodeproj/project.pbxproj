@@ -14,6 +14,7 @@
 		AF217C2C2C07E13D0099ED87 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF217C2A2C07E13D0099ED87 /* User+CoreDataProperties.swift */; };
 		AF29871F2C061EAB00713553 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF29871E2C061EAB00713553 /* ProfileViewController.swift */; };
 		AF2987212C0620B400713553 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2987202C0620B400713553 /* AddProductViewController.swift */; };
+		AF5DD8E72C088F6D00121D49 /* ChooseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5DD8E62C088F6D00121D49 /* ChooseImage.swift */; };
 		AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DF82C04B023004D6267 /* LoginViewController.swift */; };
 		AF988DFB2C04B965004D6267 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DFA2C04B965004D6267 /* SignUpViewController.swift */; };
 		AFAEA6EF2BFFCE2700AED44C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA6EE2BFFCE2700AED44C /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 		AF217C2A2C07E13D0099ED87 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AF29871E2C061EAB00713553 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AF2987202C0620B400713553 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		AF5DD8E62C088F6D00121D49 /* ChooseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseImage.swift; sourceTree = "<group>"; };
 		AF988DF82C04B023004D6267 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF988DFA2C04B965004D6267 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AFAEA6EB2BFFCE2700AED44C /* Amazon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 		AFAEA6ED2BFFCE2700AED44C /* Amazon */ = {
 			isa = PBXGroup;
 			children = (
+				AF5DD8E62C088F6D00121D49 /* ChooseImage.swift */,
 				AFB4B52F2C053C3F0041151F /* AddingUserInfo.swift */,
 				AFAEA6EE2BFFCE2700AED44C /* AppDelegate.swift */,
 				AFAEA6F02BFFCE2700AED44C /* SceneDelegate.swift */,
@@ -198,6 +201,7 @@
 			files = (
 				AFB4B5292C053B7B0041151F /* UsersInfo.xcdatamodeld in Sources */,
 				AF217C172C06878E0099ED87 /* Product.xcdatamodeld in Sources */,
+				AF5DD8E72C088F6D00121D49 /* ChooseImage.swift in Sources */,
 				AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */,
 				AFAEA6F32BFFCE2700AED44C /* ViewController.swift in Sources */,
 				AFB4B5262C0539060041151F /* PolicyViewController.swift in Sources */,

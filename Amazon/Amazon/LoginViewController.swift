@@ -39,6 +39,7 @@ class LoginViewController: UIViewController {
                 self.navigationController?.pushViewController(signUpVC, animated: true)
             }
             alert.addAction(OkAction)
+            self.present(alert, animated: true, completion: nil)
         }
         else {
             print("non empty")
