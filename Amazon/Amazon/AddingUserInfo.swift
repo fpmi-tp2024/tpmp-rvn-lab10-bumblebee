@@ -30,10 +30,10 @@ func addUserData(status: Int?, userName: String?, email: String?, password: Stri
        newUser.id = id
        do {
            try context.save()
-           print("User saved with id: \(id)")
+           print("saved with id: \(id)")
            return id
        } catch {
-           print("Error saving user: \(error)")
+           print("didn't save user: \(error)")
        }
     return id
 }

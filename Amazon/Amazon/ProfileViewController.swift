@@ -56,7 +56,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
         if let birthday = userDictionary["birthday"] as? Date {
             birthdayProfile.text = dateFormatter.string(from: birthday)
         } else {
-            birthdayProfile.text = ""
+            birthdayProfile.text = " – "
         }
         
         if let address = userDictionary["address"] as? String {
@@ -237,6 +237,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
             self.needToTapEdit()
             self.saveTest.isHidden = true
             self.editProfileButton.isHidden = false
+            
         }
         alert.addAction(NoAction)
         alert.addAction(OkAction)
