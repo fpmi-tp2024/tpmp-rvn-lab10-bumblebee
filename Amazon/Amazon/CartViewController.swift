@@ -59,7 +59,7 @@ extension CartViewController: UICollectionViewDelegateFlowLayout {
         cell.contentView.layer.borderWidth = 1.0
         cell.contentView.layer.borderColor = UIColor.gray.cgColor
         cell.contentView.layer.cornerRadius = 10
-        print("okkk")
+        print("added")
         return cell
     }
 }

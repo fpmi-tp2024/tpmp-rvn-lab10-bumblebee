@@ -77,12 +77,12 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
     }
     
     @IBAction func editTapped(_ sender: Any) {
-        saveTest.isHidden = false
-        editProfileButton.isHidden = true
         needToTapSave()
     }
     
     func needToTapSave() {
+        saveTest.isHidden = false
+        editProfileButton.isHidden = true
         usernameProfile.isHidden = true
         emailProfile.isHidden = true
         birthdayProfile.isHidden = true
@@ -123,6 +123,8 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
         passwordLabel.isHidden = true
         idProfile.textColor = UIColor.black
         statusProfile.textColor = UIColor.black
+        self.saveTest.isHidden = true
+        self.editProfileButton.isHidden = false
     }
     
     func rewriteValues(id: Int16, newUsername: String?, newUsernameLabel: UILabel, newEmail: String?, newEmailLabel: UILabel, newBirthday: Date?, newBirthdayLabel: UILabel, newAddress: String?, newAddressLabel: UILabel, newPassword: String?) {
@@ -218,8 +220,10 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
             return nil
         }
     }
-        
-    @IBAction func saveTestTapped(_ sender: Any) {
+    
+    
+    @IBAction func saveTapped(_ sender: Any) {
+        print("save")
         let alert = UIAlertController(title: "Editing profile", message: "Are you sure you want to save changes?", preferredStyle: .alert)
         let NoAction = UIAlertAction(title: "Cancel", style: .default) {
             (_) in
@@ -235,12 +239,11 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
             let id = Int16(self.idProfile.text!)
             self.rewriteValues(id: id ?? 0, newUsername: newUs, newUsernameLabel: self.usernameProfile, newEmail: newEmail, newEmailLabel: self.emailProfile, newBirthday: newCumple, newBirthdayLabel: self.birthdayProfile, newAddress: newAddress, newAddressLabel: self.adressProfile, newPassword: newPassword)
             self.needToTapEdit()
-            self.saveTest.isHidden = true
-            self.editProfileButton.isHidden = false
             
         }
         alert.addAction(NoAction)
         alert.addAction(OkAction)
         self.present(alert, animated: true, completion: nil)
     }
+  
 }

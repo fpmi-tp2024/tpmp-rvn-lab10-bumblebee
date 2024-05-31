@@ -4,21 +4,190 @@
 <dict>
 	<key>Multicoocker</key>
 	<dict>
+		<key>description</key>
+		<string>With multiple cooking modes, including slow cooking, pressure cooking, and rice cooking, you can easily prepare delicious and healthy meals for your family.</string>
 		<key>image</key>
 		<string>multicoocker</string>
 		<key>price</key>
-		<string>84$</string>
+		<string>113$</string>
 		<key>name</key>
 		<string>Multicoocker Instant Pot</string>
 	</dict>
 	<key>Battereis</key>
 	<dict>
+		<key>description</key>
+		<string>Batteries are essential for powering many of our everyday devices, from remote controls to toys to smoke alarms. </string>
 		<key>price</key>
 		<string>18$</string>
 		<key>name</key>
 		<string>Energizer AA-32</string>
 		<key>image</key>
 		<string>batteries</string>
+	</dict>
+	<key>Microwave</key>
+	<dict>
+		<key>description</key>
+		<string>Heat up leftovers, cook frozen dinners, and make popcorn in seconds with a microwave. Our microwaves offer convenient features like pre-programmed settings and adjustable power levels to make cooking and reheating easier than ever.</string>
+		<key>price</key>
+		<string>210$</string>
+		<key>name</key>
+		<string>Microwave TOSHIBA</string>
+		<key>image</key>
+		<string>microwave</string>
+	</dict>
+	<key>Umbrella</key>
+	<dict>
+		<key>description</key>
+		<string>Stay dry and protected in any weather with an umbrella. Our umbrellas come in a variety of sizes and styles, from compact and portable to large and sturdy, to suit your needs.</string>
+		<key>price</key>
+		<string>21$</string>
+		<key>name</key>
+		<string>Umbrella &apos;Stay dry&apos;</string>
+		<key>image</key>
+		<string>umbrella</string>
+	</dict>
+	<key>Monitor</key>
+	<dict>
+		<key>description</key>
+		<string>Upgrade your computer setup with a high-quality monitor. Our monitors offer fast response times, and a range of sizes to fit your needs</string>
+		<key>price</key>
+		<string>190$</string>
+		<key>name</key>
+		<string>Gaming monitor</string>
+		<key>image</key>
+		<string>monitor</string>
+	</dict>
+	<key>Webcam</key>
+	<dict>
+		<key>description</key>
+		<string>Stay connected with friends, family, and colleagues with a webcam. Our webcams offer clear video and audio, automatic light correction, and easy setup for high-quality video conferencing and recording.</string>
+		<key>price</key>
+		<string>75$</string>
+		<key>name</key>
+		<string>Web camera &apos;Long connection&apos;</string>
+		<key>image</key>
+		<string>webcam</string>
+	</dict>
+	<key>Laptop</key>
+	<dict>
+		<key>description</key>
+		<string>Whether you&apos;re working on the go or just need a portable computer for everyday use, our laptops offer powerful performance, sleek designs, and a range of features to meet your needs.</string>
+		<key>price</key>
+		<string>990$</string>
+		<key>name</key>
+		<string>Laptop HP</string>
+		<key>image</key>
+		<string>laptop</string>
+	</dict>
+	<key>Keyboard</key>
+	<dict>
+		<key>description</key>
+		<string>Our keyboards offer comfortable typing, responsive keys, and a variety of features to enhance your productivity and gaming experience.</string>
+		<key>price</key>
+		<string>250$</string>
+		<key>name</key>
+		<string>Keyboard &apos;Comfortable typing&apos;</string>
+		<key>image</key>
+		<string>keyboard</string>
+	</dict>
+	<key>Ebook</key>
+	<dict>
+		<key>description</key>
+		<string>From bestselling novels to educational texts, our ebooks allow you to read anytime, anywhere, on your favorite device.</string>
+		<key>price</key>
+		<string>90$</string>
+		<key>name</key>
+		<string>E-reade. Second generation</string>
+		<key>image</key>
+		<string>ebook</string>
+	</dict>
+	<key>Wheelchair</key>
+	<dict>
+		<key>description</key>
+		<string>Our wheelchairs provide mobility and independence for those with disabilities or injuries. Designed for comfort and durability, our wheelchairs are easy to maneuver and can be customized to fit your specific needs.</string>
+		<key>price</key>
+		<string>730$</string>
+		<key>name</key>
+		<string>Wheelchair grand 3000</string>
+		<key>image</key>
+		<string>wheelChair</string>
+	</dict>
+	<key>Pijamas</key>
+	<dict>
+		<key>description</key>
+		<string>Get cozy and comfortable for bedtime with our selection of pyjamas. Made from soft and breathable fabrics, our pyjamas come in a variety of styles and sizes for both men and women.</string>
+		<key>price</key>
+		<string>45$</string>
+		<key>name</key>
+		<string>Woman cotton pyjamas </string>
+		<key>image</key>
+		<string>pijamas</string>
+	</dict>
+	<key>Coffee</key>
+	<dict>
+		<key>description</key>
+		<string>Enjoy freshly brewed coffee anytime with our coffee machine capsules</string>
+		<key>price</key>
+		<string>21$</string>
+		<key>name</key>
+		<string>Coffee machine capsules MC-cafe</string>
+		<key>image</key>
+		<string>coffee</string>
+	</dict>
+	<key>Hoover</key>
+	<dict>
+		<key>description</key>
+		<string>Keep your home clean and tidy with a Hoover vacuum cleaner. Our vacuums feature powerful suction and advanced filtration systems to effectively remove dirt, dust from your floors and carpets.</string>
+		<key>price</key>
+		<string>480$</string>
+		<key>name</key>
+		<string>Hoover NH-210</string>
+		<key>image</key>
+		<string>hoover</string>
+	</dict>
+	<key>Nightlight</key>
+	<dict>
+		<key>description</key>
+		<string>Create a cozy and comforting atmosphere in any room with a nightlight. Our nightlights offer soft and gentle lighting to help you navigate in the dark without disturbing your sleep.</string>
+		<key>price</key>
+		<string>80$</string>
+		<key>name</key>
+		<string>Nightlight AA-21</string>
+		<key>image</key>
+		<string>nightLight</string>
+	</dict>
+	<key>Trainers</key>
+	<dict>
+		<key>description</key>
+		<string>Stay active and stylish with our selection of trainers. Designed for a variety of sports and activities, our trainers offer support, cushioning, and durability to help you perform your best.</string>
+		<key>price</key>
+		<string>50$</string>
+		<key>name</key>
+		<string>Training shoes &apos;Modern style&apos;</string>
+		<key>image</key>
+		<string>shoes</string>
+	</dict>
+	<key>Mattress</key>
+	<dict>
+		<key>description</key>
+		<string>Each mattress is crafted with high-quality materials and advanced technology to ensure a restful and rejuvenating sleep. Whether you&apos;re looking to alleviate back pain or simply want to upgrade your sleep experience, our mattresses are the perfect choice for a better night&apos;s rest.</string>
+		<key>price</key>
+		<string>135$</string>
+		<key>name</key>
+		<string>Energizer AA-32</string>
+		<key>image</key>
+		<string>mattress</string>
+	</dict>
+	<key>Bedding</key>
+	<dict>
+		<key>description</key>
+		<string>Whether your dog loves to lounge in the living room or snuggle up in their crate, we have the perfect bedding to meet their needs. Our dog bedding is also durable and easy to clean, so you can keep it looking and smelling fresh for your pup.</string>
+		<key>price</key>
+		<string>28$</string>
+		<key>name</key>
+		<string>Dog bedding</string>
+		<key>image</key>
+		<string>dog</string>
 	</dict>
 </dict>
 </plist>

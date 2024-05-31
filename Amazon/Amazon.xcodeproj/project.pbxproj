@@ -21,6 +21,7 @@
 		AF4846932C0A296D004C712A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4846922C0A296D004C712A /* MapViewController.swift */; };
 		AF4846952C0A2D74004C712A /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4846942C0A2D74004C712A /* ThankYouViewController.swift */; };
 		AF4846972C0A30D8004C712A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4846962C0A30D7004C712A /* LocationManager.swift */; };
+		AF4846A62C0A87EE004C712A /* MyAmazonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4846A52C0A87EE004C712A /* MyAmazonTests.swift */; };
 		AF5DD8E72C088F6D00121D49 /* ChooseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5DD8E62C088F6D00121D49 /* ChooseImage.swift */; };
 		AF988DF92C04B024004D6267 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DF82C04B023004D6267 /* LoginViewController.swift */; };
 		AF988DFB2C04B965004D6267 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF988DFA2C04B965004D6267 /* SignUpViewController.swift */; };
@@ -37,6 +38,16 @@
 		AFB4B54C2C060ABA0041151F /* VendorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4B54B2C060ABA0041151F /* VendorController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AF4846A02C0A87A0004C712A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAEA6E32BFFCE2700AED44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAEA6EA2BFFCE2700AED44C;
+			remoteInfo = Amazon;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		AF0B41502C0920EB005C8EDF /* ProductGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		AF0B41522C09229B005C8EDF /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +63,8 @@
 		AF4846922C0A296D004C712A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AF4846942C0A2D74004C712A /* ThankYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 		AF4846962C0A30D7004C712A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		AF48469C2C0A87A0004C712A /* AmazonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4846A52C0A87EE004C712A /* MyAmazonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAmazonTests.swift; sourceTree = "<group>"; };
 		AF5DD8E62C088F6D00121D49 /* ChooseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseImage.swift; sourceTree = "<group>"; };
 		AF988DF82C04B023004D6267 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF988DFA2C04B965004D6267 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +84,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AF4846992C0A87A0004C712A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFAEA6E82BFFCE2700AED44C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,11 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF48469D2C0A87A0004C712A /* AmazonTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4846A52C0A87EE004C712A /* MyAmazonTests.swift */,
+			);
+			path = AmazonTests;
+			sourceTree = "<group>";
+		};
 		AFAEA6E22BFFCE2700AED44C = {
 			isa = PBXGroup;
 			children = (
 				AFB4B52E2C053C000041151F /* User */,
 				AFAEA6ED2BFFCE2700AED44C /* Amazon */,
+				AF48469D2C0A87A0004C712A /* AmazonTests */,
 				AFAEA6EC2BFFCE2700AED44C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				AFAEA6EB2BFFCE2700AED44C /* Amazon.app */,
+				AF48469C2C0A87A0004C712A /* AmazonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +174,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AF48469B2C0A87A0004C712A /* AmazonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4846A42C0A87A0004C712A /* Build configuration list for PBXNativeTarget "AmazonTests" */;
+			buildPhases = (
+				AF4846982C0A87A0004C712A /* Sources */,
+				AF4846992C0A87A0004C712A /* Frameworks */,
+				AF48469A2C0A87A0004C712A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4846A12C0A87A0004C712A /* PBXTargetDependency */,
+			);
+			name = AmazonTests;
+			productName = AmazonTests;
+			productReference = AF48469C2C0A87A0004C712A /* AmazonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AFAEA6EA2BFFCE2700AED44C /* Amazon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFAEA6FF2BFFCE2900AED44C /* Build configuration list for PBXNativeTarget "Amazon" */;
@@ -171,6 +219,11 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					AF48469B2C0A87A0004C712A = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+						TestTargetID = AFAEA6EA2BFFCE2700AED44C;
+					};
 					AFAEA6EA2BFFCE2700AED44C = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -190,11 +243,19 @@
 			projectRoot = "";
 			targets = (
 				AFAEA6EA2BFFCE2700AED44C /* Amazon */,
+				AF48469B2C0A87A0004C712A /* AmazonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AF48469A2C0A87A0004C712A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFAEA6E92BFFCE2700AED44C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +270,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AF4846982C0A87A0004C712A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4846A62C0A87EE004C712A /* MyAmazonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFAEA6E72BFFCE2700AED44C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +311,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AF4846A12C0A87A0004C712A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAEA6EA2BFFCE2700AED44C /* Amazon */;
+			targetProxy = AF4846A02C0A87A0004C712A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		AFAEA6F42BFFCE2700AED44C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -262,6 +339,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AF4846A22C0A87A0004C712A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.AmazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amazon";
+			};
+			name = Debug;
+		};
+		AF4846A32C0A87A0004C712A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.AmazonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amazon";
+			};
+			name = Release;
+		};
 		AFAEA6FD2BFFCE2900AED44C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -438,6 +552,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AF4846A42C0A87A0004C712A /* Build configuration list for PBXNativeTarget "AmazonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4846A22C0A87A0004C712A /* Debug */,
+				AF4846A32C0A87A0004C712A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AFAEA6E62BFFCE2700AED44C /* Build configuration list for PBXProject "Amazon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

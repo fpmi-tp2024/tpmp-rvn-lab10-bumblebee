@@ -28,21 +28,31 @@ class ProductViewController: UIViewController {
         }
         print("selected product: \(selectedProduct)")
         exactProductName.text = selectedProduct.object(forKey: "name") as? String
-        //exactProductDescription.text = selectedProduct.object(forKey: "description") as? String
+        exactProductDescription.text = selectedProduct.object(forKey: "description") as? String
         exactProductImage.image = UIImage(named: selectedProduct.object(forKey: "image") as! String)
         exactProductPrice.text = selectedProduct.object(forKey: "price") as? String
         addButton.tintColor = UIColor(#colorLiteral(red: 0.9963644147, green: 0.6345276237, blue: 0.115470238, alpha: 1))
     }
+    
 
     @IBAction func stepperValueChanged(_ sender: Any) {
         amountLabel.text = String(Int(stepper.value))
+        if let priceText = exactProductPrice.text, let price = Int(priceText.dropLast()) {
+            let newPrice = String(format: "%.2f", Double(price) * Double(stepper.value)) + "$"
+            exactProductPrice.text = newPrice
+        }
     }
+    
     @IBAction func addToCartTap(_ sender: Any) {
         guard let image = exactProductImage.image else { return }
         let price = exactProductPrice.text ?? ""
         guard let name = exactProductName.text else { return }
-        let amount = 1
-        addToCart(name: name, price: price, amount: amount, image: image)
+        let amount = stepper.value
+        addToCart(name: name, price: price, amount: Int(amount), image: image)
     }
     
+    @IBAction func moveToCart(_ sender: Any) {
+        let signUpVC = self.storyboard?.instantiateViewController(identifier: "CartViewController") as! CartViewController
+        self.navigationController?.pushViewController(signUpVC, animated: true)
+    }
 }

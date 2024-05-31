@@ -15,9 +15,10 @@ class ProductGalleryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var addButton: UIButton!
 
     @IBAction func addToCartTap(_ sender: Any) {
-        if let image = productImage.image {
-            addToCart(name: nameLabel.text ?? "", price: priceLabel.text ?? "", amount: 1, image: image)
-        }
-        print("tapped")
+        guard let image = productImage.image else { return }
+        let price = priceLabel.text ?? ""
+        guard let name = nameLabel.text else { return }
+        let amount = 1
+        addToCart(name: name, price: price, amount: Int(amount), image: image)
     }
 }
