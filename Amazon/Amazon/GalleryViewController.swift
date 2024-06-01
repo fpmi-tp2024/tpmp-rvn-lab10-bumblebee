@@ -46,7 +46,7 @@ extension GalleryViewController: UICollectionViewDataSource {
         cell.priceLabel.text = productInfo.object(forKey: "price") as? String
         cell.contentView.layer.borderWidth = 1.0
         cell.contentView.layer.borderColor = UIColor.gray.cgColor
-        cell.contentView.layer.cornerRadius = 20
+        cell.contentView.layer.cornerRadius = 10
         print("okkk")
         return cell
     }

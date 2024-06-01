@@ -37,12 +37,16 @@ class ProductViewController: UIViewController {
 
     @IBAction func stepperValueChanged(_ sender: Any) {
         amountLabel.text = String(Int(stepper.value))
-        if let priceText = exactProductPrice.text, let price = Int(priceText.dropLast()) {
-            let newPrice = String(format: "%.2f", Double(price) * Double(stepper.value)) + "$"
-            exactProductPrice.text = newPrice
-        }
+        changePrice(label: exactProductPrice, value: stepper.value)
     }
     
+    func changePrice(label: UILabel, value: Double) {
+        if let priceText = selectedProduct?.object(forKey: "price") as? String, let priceInt = Int(priceText.dropLast()) {
+            let newPrice = String(format: "$%.2f", Double(priceInt) * value)
+            label.text = newPrice
+        }
+    }
+
     @IBAction func addToCartTap(_ sender: Any) {
         guard let image = exactProductImage.image else { return }
         let price = exactProductPrice.text ?? ""

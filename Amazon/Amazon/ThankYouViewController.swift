@@ -12,12 +12,15 @@ class ThankYouViewController: UIViewController {
     @IBOutlet weak var descrLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        descrLabel.text = NSLocalizedString("thankyou", comment: "")
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onMainTap(_ sender: Any) {
-        self.navigationController?.popToRootViewController(animated: true)
+        let signUpVC = self.storyboard?.instantiateViewController(identifier: "ProductViewController") as! ProductViewController
+        self.navigationController?.pushViewController(signUpVC, animated: true)
     }
+    
 }
 

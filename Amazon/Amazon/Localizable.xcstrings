@@ -1,0 +1,29 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "thankyou" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thank you for your order! We will begin processing your order immediately and will contact you if there are any issues. Please expect delivery within the estimated time frame. If you have any questions, please don't hesitate to contact us. "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Gracias por ordenar! ¡Procesaremos su pedido lo antes posible y le informaremos del tiempo de entrega exacto! Si usted tiene preguntas, no dude en hacerlas!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спасибо за заказ! Мы обработаем ваш заказ как можно скорее и сообщим вам точные сроки доставки! Если у вас есть вопросы, не стесняйтесь задавать их!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
