@@ -70,6 +70,9 @@ class LoginViewController: UIViewController {
     @IBAction func SignUpTap(_ sender: Any) {
         let signUpVC = self.storyboard?.instantiateViewController(identifier: "SignUpViewController") as! SignUpViewController
         self.navigationController?.pushViewController(signUpVC, animated: true)
+        UsernameLogTF.text = ""
+        IDLogTF.text = ""
+        PasswordlogTF.text = ""
     }
     
     

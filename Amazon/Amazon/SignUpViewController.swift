@@ -87,7 +87,8 @@ class SignUpViewController: UIViewController, UITextViewDelegate {
         }
         let alert = UIAlertController(title: "\(addUserData(status: statusSwitch.selectedSegmentIndex, userName: usernameTF.text, email: emailTF.text, password: passwordTF.text, birthday: date.date, address: addressTF.text))", message: "Make sure you remembered this ID. You will need it to get first access to your account. Then It will be located in your profile", preferredStyle: .alert)
         let OkAction = UIAlertAction(title: "Ok", style: .default) {
-            (_) in self.navigationController?.popViewController(animated: true)
+            (_) in 
+            self.navigationController?.popViewController(animated: true)
         }
         alert.addAction(OkAction)
         self.present(alert, animated: true, completion: nil)
